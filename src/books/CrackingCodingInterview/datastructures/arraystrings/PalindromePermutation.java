@@ -1,5 +1,7 @@
 package books.CrackingCodingInterview.datastructures.arraystrings;
 
+import java.util.Arrays;
+
 /**
  1.4 Palindrome Permutation:
  Given a string, write a function to check if it is permutation of a palindrome.
@@ -10,7 +12,7 @@ public class PalindromePermutation {
     public static void main(String[] args) {
         PalindromePermutation obj = new PalindromePermutation();
 
-        String s = "aabbcc   cd";
+        String s = "aabbcc   c";
         boolean flag = obj.isPermutationPalindrome(s);
         System.out.println("String = "+ s+ "\nIs Permutation Palindrome : "+flag);
     }
@@ -34,6 +36,8 @@ public class PalindromePermutation {
                 table[x]++;
             }
         }
+
+        System.out.println(Arrays.toString(table));
 
         //Loop through table array, and check no more than 1 characters has odd value.
         boolean foundOdd = false;
