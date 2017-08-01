@@ -1,4 +1,4 @@
-package online.leetcode.easy.linkedlist.reverselist;
+package online.LeetCode.easy.linkedlist.reverselist;
 
 /**
  206. Reverse Linked List

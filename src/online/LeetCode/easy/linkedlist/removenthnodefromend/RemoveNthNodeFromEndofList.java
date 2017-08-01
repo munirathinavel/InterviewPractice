@@ -1,4 +1,4 @@
-package online.leetcode.easy.linkedlist.removenthnodefromend;
+package online.LeetCode.easy.linkedlist.removenthnodefromend;
 
 /**
  https://leetcode.com/problems/remove-nth-node-from-end-of-list/

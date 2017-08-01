@@ -1,4 +1,4 @@
-package online.leetcode.easy.linkedlist.mergelists;
+package online.LeetCode.easy.linkedlist.mergelists;
 
 /**
  * https://leetcode.com/problems/merge-two-sorted-lists/
