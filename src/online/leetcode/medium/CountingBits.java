@@ -5,7 +5,7 @@ import java.util.Arrays;
 /**
  * https://leetcode.com/problems/counting-bits/
  *
- * Given a non negative integer number num. For every numbers i in the range 0 <= i <= num calculate the number of 1's in
+ * 338. Given a non negative integer number num. For every numbers i in the range 0 <= i <= num calculate the number of 1's in
  * their binary representation and return them as an array.
 
 Example:
@@ -25,7 +25,7 @@ public class CountingBits {
 
 	public static void main(String[] args) {
 		CountingBits cb = new CountingBits();
-        int num = 32;
+        int num = 16;
 
         int[] counts = cb.countBits_Naive(num);
 		System.out.println(Arrays.toString(counts));
